@@ -1,11 +1,85 @@
-#logo{
-    height: 32px;
-    width: auto;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: "Avenir Next", sans-serif;
+}
 header {
+    position: fixed;
+    z-index: 100;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 0 24px;
     height: 64px;
-    background-color: blue;
+    align-items: center;
+    background-color: white;
+}
+
+h4{
+    font-weight: normal;
+    color: gray;
+    line-height: 34px;
+    font-size: 20px;
+}
+h4 strong {
+    color: #383838;
+    font-weight: 600;
+}
+.logo{
+    height: 32px;
+    width: auto;
+    display: flex;
+}
+nav {
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    padding-left: 16px;
+    color:#383838
+}
+
+.banner {
+    position: relative;
+    background-color: lightgrey;
+    top: 64px;
+    display: flex;
+}
+
+.banner h1{
+    font-size: 60px;
+    padding-bottom: 32px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 32px;
+}
+
+#bannerimg {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.bannercontent {
+    color: #383838;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+
+#starthere {
+    color: white;
+    background-color: #383838;
+    font-weight: medium;
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
 }
