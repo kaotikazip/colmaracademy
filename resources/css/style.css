@@ -1,0 +1,11 @@
+#logo{
+    height: 32px;
+    width: auto;
+}
+
+header {
+    width: 100%;
+    padding: 0 24px;
+    height: 64px;
+    background-color: blue;
+}
