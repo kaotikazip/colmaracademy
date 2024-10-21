@@ -46,8 +46,9 @@ nav a {
 .banner {
     position: relative;
     background-color: lightgrey;
-    top: 64px;
+    padding-top: 64px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .banner h1{
@@ -82,4 +83,71 @@ nav a {
     text-align: center;
     padding: 8px 0;
     width: 100%;
+}
+
+.events {
+    width: 100%;
+    display: flex;
+    padding: 32px 0 0 0;
+    box-sizing: border-box;
+}
+
+#quote {
+    margin: 0 24px;
+    width: 60%;
+}
+
+.eventslist{
+    width: 40%;
+    border-left: 1px solid lightgray;
+    margin-top: -32px;
+    padding-top: 16px;
+}
+
+#quoteimg {
+    width: 100%;
+    height: auto;
+}
+
+#quote h2 {
+   margin: 32px 0 24px 0;
+    font-size: 40px;
+}
+
+#author {
+    font-size: 12px;
+    font-style: normal;
+    margin: 32px 0 32px 0;
+}
+
+.eventimg {
+    width: 35%;
+    height: auto;
+}
+
+.eventitem {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.iteminfo {
+    width: 65%;
+    padding-left: 16px;
+    align-content: center;
+}
+
+.readmore {
+    color: blue;
+    margin-top: 8px;
+}
+
+#guest {
+    background-color: lightgrey;
 }
