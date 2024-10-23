@@ -200,11 +200,55 @@ h6 {
     font-size: 32px;
     margin: 32px 0;
     color: #383838;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
 #thesis {
     width: 100%;
+}
+
+#exhibit {
+    width: 100%;
     display: flex;
+}
+
+#mainthesis {
+    width: 60%;
+    margin: 0 24px;
+    height: auto;
+}
+
+#mainthesis video{
+    margin-bottom: 24px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+#mainthesis p {
+    margin: 8px 0 32px 0;
+}
+
+#otherthesis {
+    width: 40%;
+}
+
+.thesiscard {
+    display: flex;
+    align-items: center;
+}
+
+.thesiscard img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.thesisinfo {
+    width: 65%;
+}
+
+#one {
+    background-color: lightgray;
 }
