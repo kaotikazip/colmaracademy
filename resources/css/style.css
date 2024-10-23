@@ -151,3 +151,60 @@ h6 {
 #guest {
     background-color: lightgrey;
 }
+
+#learning {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+#learning h2 {
+    font-size: 32px;
+    margin: 32px 0;
+    color: #383838;
+}
+
+#learningcards{
+    display: flex;
+    padding: 0 72px;
+    margin: 0;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 32px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: white;
+    padding-bottom: 24px;
+    box-sizing: border-box;
+    width: calc((100% / 3) - (32px * 2 / 3));
+}
+
+.cardimg {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.card p {
+    margin: 8px 16px 0 16px;
+}
+
+.card h6 {
+    margin: 0 16px 0 16px;
+}
+
+#thesis h2 {
+    font-size: 32px;
+    margin: 32px 0;
+    color: #383838;
+    width: 100%;
+    text-align: center;
+}
+
+#thesis {
+    width: 100%;
+    display: flex;
+}
