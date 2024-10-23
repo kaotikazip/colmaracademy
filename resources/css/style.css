@@ -252,3 +252,16 @@ h6 {
 #one {
     background-color: lightgray;
 }
+
+footer {
+    border-top: 1px solid lightgray;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 32px 24px;
+}
+
+#links {
+    display: flex;
+    gap: 12px;
+}
